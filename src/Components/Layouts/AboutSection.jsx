@@ -10,7 +10,7 @@ export const AboutSection = () => {
 				<div className='bg-[url(../images/about-img.webp)] bg-center bg-cover rounded-2xl overflow-hidden w-full shadow-md'>
 					<div className='flex h-[400px] bg-dark/40 bg-gradient-to-r from-dark'>
 						<div className='self-center text-white px-10 lg:px-20'>
-							<h5 className='font-serif pb-3'>Zia Bakery </h5>
+							<h5 className='font-serif pb-3'>Norines Oven</h5>
 							<p>
 								Setiap kreasi Mille Crepes adalah cerminan dari
 								keindahan, kelembutan, dan kelezatan. Kami mengundang
@@ -19,7 +19,7 @@ export const AboutSection = () => {
 								dan kelezatan kue kami.
 							</p>
 						</div>
-					</div>
+					</div>	
 				</div>
 
 				<div className='md:w-3/4'>
@@ -40,7 +40,7 @@ export const AboutSection = () => {
 							<FaPhone className='fill-pink w-5 h-5' />
 						</div>
 						<div>
-							<p className='font-bold'>(+62) 8123 4567</p>
+							<p className='font-bold'>(+91) 84 9797 2737</p>
 							<p>Hubungi Kami</p>
 						</div>
 					</div>

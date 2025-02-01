@@ -10,7 +10,7 @@ export const ContactOrder = () => {
 						<h4 className='font-serif font-semibold tracking-wider pb-1'>
 							Online Delivery
 						</h4>
-						<p className='pb-5'>(+62) 8123 4567</p>
+						<p className='pb-5'>(+91) 84 9797 2737</p>
 						<Button variant='bg-transparant border-2 border-white text-whte mx-auto active:scale-100 active:text-dark active:bg-white'>
 							Order Sekarang!
 						</Button>

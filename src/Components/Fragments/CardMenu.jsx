@@ -1,3 +1,4 @@
+/* eslint-disable no-mixed-spaces-and-tabs */
 /* eslint-disable react/prop-types */
 import { FaStar } from 'react-icons/fa6'
 import { Button } from '../Elements/Button'
@@ -34,16 +35,20 @@ export const Body = ({ name, children }) => {
 		</>
 	)
 }
-export const Footer = ({ price }) => {
+export const Footer = ({ price, onOrderClick }) => {
 	return (
-		<div className='flex items-center justify-between pt-3'>
-			<p className='font-bold'>{price}</p>
-			<div className='flex gap-2 items-center'>
-				<Button variant='bg-pink text-white'>Order</Button>
-			</div>
+	  // eslint-disable-next-line no-mixed-spaces-and-tabs
+	  <div className='flex items-center justify-between pt-3'>
+		<p className='font-bold'>{price}</p>
+		<div className='flex gap-2 items-center'>
+		  <Button variant='bg-pink text-white' onClick={onOrderClick}>
+			Order
+		  </Button>
 		</div>
-	)
-}
+	  </div>
+	);
+  };
+  
 
 CardMenu.Header = Header
 CardMenu.Body = Body

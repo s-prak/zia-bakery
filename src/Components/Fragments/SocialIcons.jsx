@@ -17,7 +17,7 @@ export const SocialIcons = () => {
 		},
 		{
 			id: 3,
-			href: '#whatsapp',
+			href: 'https://wa.me/8497972737',
 			nameIcon: <BsWhatsapp className='fill-black w-5 h-5' />
 		},
 		{

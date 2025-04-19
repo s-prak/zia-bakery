@@ -4,7 +4,7 @@ export const ContactOrder = () => {
 	return (
 		<>
 			<div id='contact' className='px-5 pt-20 pb-10 text-center lg:px-20'>
-				<div className='rounded-3xl shadow-md overflow-hidden bg-[url(/zia-bakery/images/order-img.webp)] bg-center bg-cover'>
+				<div className='rounded-3xl shadow-md overflow-hidden bg-[url(images/order-img.webp)] bg-center bg-cover'>
 					<div className='text-white py-14 bg-dark/70'>
 						<p>CONTACT US FOR</p>
 						<h4 className='font-serif font-semibold tracking-wider pb-1'>
@@ -20,7 +20,7 @@ export const ContactOrder = () => {
 
 			<div className='flex items-center justify-between w-full px-5 pb-1 text-sm lg:px-20'>
 				<div className='flex gap-2 items-center'>
-					<img className='w-4 h-4' src='/zia-bakery/logo.png' alt='Logo' />
+					<img className='w-4 h-4' src='logo.png' alt='Logo' />
 					<p className='font-serif tracking-wider'>Norine&apos;s Oven.</p>
 				</div>
 				<p className='text-xs'>© 2024</p>

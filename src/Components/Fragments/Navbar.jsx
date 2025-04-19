@@ -90,11 +90,11 @@ export const Navbar = () => {
 		<nav className='shadow-md w-[90%] z-50 fixed top-3 right-1/2 left-1/2 -translate-x-1/2 py-3 px-7 bg-light/70 backdrop-blur-md rounded-full text-dark'>
 			<div ref={menuRef} className='flex items-center justify-between'>
 				<div>
-					<a href='/'>
+					<a href='/zia-bakery/'>
 						<img
 							className='w-8 md:w-10'
-							src='logo.png'
-							alt='Zia Bakery'
+							src='/zia-bakery/logo.png'
+							alt="Norine's Oven"
 						/>
 					</a>
 				</div>

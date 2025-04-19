@@ -93,7 +93,7 @@ export const Navbar = () => {
 					<a href='/'>
 						<img
 							className='w-8 md:w-10'
-							src='logo.png'
+							src='/logo.png'
 							alt="Norine's Oven"
 						/>
 					</a>
